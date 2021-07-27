@@ -40,7 +40,7 @@ fillInClaim(
     )
 
 submitClaim(PolicyNumber)
-claimAdjustment(PolicyNumber)
+addAdjustorReport(PolicyNumber)
 faultAdjustment(PolicyNumber)
 approved(PolicyNumber)
 ```
