@@ -40,8 +40,8 @@ fillInClaim(
     )
 
 submitClaim(PolicyNumber)
-claimAdjustment(PolicyNumber)
-faultAdjustment(PolicyNumber)
+addAdjustorReport(PolicyNumber, adjustorReport)
+faultAssessment(PolicyNumber, assessmentReport)
 approved(PolicyNumber)
 ```
 ## Roles
@@ -49,4 +49,5 @@ approved(PolicyNumber)
 - Claim Adjuster
 - Agent
 - Broker
+- Manager
 
